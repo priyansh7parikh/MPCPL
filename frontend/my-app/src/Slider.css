@@ -1,6 +1,41 @@
+/* Customize the position of the navigation dots */
+.slick-dots {
+    position: absolute; /* Position the dots absolutely */
+    bottom: 30px; /* Move the dots closer to the images */
+    left: 50%; /* Center the dots horizontally */
+    transform: translateX(-50%); /* Center alignment */
+    z-index: 10; /* Ensure the dots are above other elements if necessary */
+    
+}
+
+/* Customize the style of the dots */
+.slick-dots li {
+    margin: 0 5px; /* Adjust spacing between dots */
+}
+
+/* Customize the button in each dot */
+.slick-dots li button {
+    width: 10px; /* Dot size */
+    height: 10px; /* Dot size */
+    border-radius: 50%; /* Round shape */
+    background-color: white; /* Dot color */
+    opacity: 0.75; /* Adjust opacity */
+    transition: opacity 0.3s; /* Transition effect */
+}
+
+/* Change dot opacity on hover */
+.slick-dots li button:hover {
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button {
+    background-color: maroon; /* Active dot color */
+    opacity: 1; /* Full opacity for the active dot */
+    
+}
+
 .slider-menu{
     text-align:center;
-   
 }
 
 img{

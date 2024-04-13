@@ -6,16 +6,16 @@ function Menu(){
     return (
     <div classname="Header">
      <div className="Menu">
-        <span class="Menu-left">
+        <span className="Menu-left">
         {/* <img src={logo} className="Menu-logo" alt="logo" /> */}
         </span>
-        <span class="Menu-right">
-            <ul class="Menu-ul">
-                <li class='Menu-li'>Home</li>
-                <li class='Menu-li'>About</li>
-                <li class='Menu-li'>Services</li>
-                <li class='Menu-li'>Blog</li>
-                <li class='Menu-li'>Contact</li>
+        <span className="Menu-right">
+            <ul className="Menu-ul">
+                <li className='Menu-li'>Home</li>
+                <li className='Menu-li'>About</li>
+                <li className='Menu-li'>Services</li>
+                <li className='Menu-li'>Blog</li>
+                <li className='Menu-li'>Contact</li>
             </ul>
         </span>
     </div>

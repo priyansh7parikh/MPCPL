@@ -5,9 +5,7 @@ import './index.css';
 import Menu from './Menu';
 import MySlider from './Slider';
 import reportWebVitals from './reportWebVitals';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 const headerMenu = ReactDOM.createRoot(document.getElementById('headerMenu'));
@@ -15,16 +13,12 @@ const main = ReactDOM.createRoot(document.getElementById('main'));
 headerMenu.render(
   <React.StrictMode>
     <Menu />
-    
-   
   </React.StrictMode>
 );
 
 main.render(
   <React.StrictMode>
    <MySlider />
-    
-   
   </React.StrictMode>
 );
 

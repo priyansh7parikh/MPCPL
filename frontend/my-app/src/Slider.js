@@ -20,7 +20,7 @@ const MySlider = () => {
     };
 
     return (
-        <div class="slider-menu">
+        <div className="slider-menu">
             <h2> DISTRIBUTION ◦ SUPPORT ◦ RETAIL</h2>
             <Slider {...settings}>
                 {/* Add your slides here */}
