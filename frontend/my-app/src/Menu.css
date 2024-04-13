@@ -1,0 +1,37 @@
+.Header{
+    margin :auto 10px;
+    padding: auto 5px;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0px;
+    padding : auto;
+    background: linear-gradient(135deg, white 37%, white 45%, #212121 25%);
+    /* background: linear-gradient(135deg, white 36%, white 30%, #212121 5%); */
+    height: 87px;
+}
+
+.Menu-left{
+    padding: 10px;
+    display: inline-block;
+    margin-left: auto; /* Remove default margin */
+}
+
+.Menu-right {
+    /* display: inline-block; */
+    margin: auto; /* Remove default margin */
+    padding: 10px; /* Remove default padding */
+    list-style-type: none; /* Remove default list bullet points */
+}
+
+/* Style the li elements */
+.Menu-right li {
+    display: inline; /* Keep list items inline */
+    margin-right: 10px; /* Add some space between list items */
+    padding: 15px;
+    color:#ebe3e3;
+}
+
+
