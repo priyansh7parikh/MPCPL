@@ -20,19 +20,19 @@ const MySlider = () => {
     };
 
     return (
-        <div className="slider-menu">
+        <div>
             <h2> DISTRIBUTION ◦ SUPPORT ◦ RETAIL</h2>
             <Slider {...settings}>
                 {/* Add your slides here */}
-                <div>
-                    <img src={computer} alt="Slide 1" style={{ display: 'block', margin: '0 auto'}}/>
+                <div className='slides'>
+                    <img src={computer} alt="Slide 1"/>
                     <p></p>
                 </div>
-                <div>
-                    <img src={macbook} alt="Slide 2" style={{ display: 'block', margin: '0 auto'}}/>
+                <div className='slides'>
+                    <img src={macbook} alt="Slide 2"/>
                 </div>
-                <div>
-                    <img src={cctv} alt="Slide 3" style={{ display: 'block', margin: '0 auto'}}/>
+                <div className='slides'>
+                    <img src={cctv} alt="Slide 3"/>
                 </div>
                 {/* Add more slides as needed */}
             </Slider>

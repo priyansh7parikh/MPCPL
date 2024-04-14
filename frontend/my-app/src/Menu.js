@@ -7,7 +7,7 @@ function Menu(){
     <div classname="Header">
      <div className="Menu">
         <span className="Menu-left">
-        {/* <img src={logo} className="Menu-logo" alt="logo" /> */}
+        <img src={logo} className="Menu-logo" alt="logo" />
         </span>
         <span className="Menu-right">
             <ul className="Menu-ul">
