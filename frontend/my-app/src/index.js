@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 import Menu from './Menu';
 import MySlider from './Slider';
+import Service from './Service';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -19,6 +20,7 @@ headerMenu.render(
 main.render(
   <React.StrictMode>
    <MySlider />
+   <Service />
   </React.StrictMode>
 );
 
